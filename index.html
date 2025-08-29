@@ -1,52 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deep Singh Rathi | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep Singh Rathi | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4b6aab9f9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+  <!-- Hero Section -->
+  <header class="hero">
     <h1>Deep Singh Rathi</h1>
-    <p>Software Developer | AI Enthusiast | Project Manager</p>
+    <p>Full Stack Developer | Backend & System Architecture Expert</p>
+    <div class="socials">
+      <a href="mailto:Deeprathi1717@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+917082633959"><i class="fas fa-phone"></i></a>
+      <a href="https://github.com/deepsinghrathi" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://in.linkedin.com/in/deepsinghrathi" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
   </header>
 
-  <section class="about">
+  <!-- About -->
+  <section class="section about">
     <h2>About Me</h2>
     <p>
-      I'm a passionate developer with experience in full-stack web development,
-      AI tools, and project management. I enjoy building efficient and elegant
-      digital solutions.
+      I’m a Full Stack Developer with <strong>6+ years of experience</strong> in web and mobile app
+      development. I specialize in <strong>React, Node.js, Firebase, PHP, and SQL</strong>. My passion
+      lies in <strong>backend development & system architecture</strong>, building scalable, high-performance applications.
     </p>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Smart Chatbot</h3>
-      <p>An AI-powered chatbot designed to assist users in real-time conversation. Built with Python and OpenAI API.</p>
-      <a href="https://deepsinghrathi.github.io/smart-chatbot" target="_blank">View Project Page</a>
+  <!-- Skills -->
+  <section class="section skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div>React</div>
+      <div>Flutter</div>
+      <div>Node.js</div>
+      <div>Firebase</div>
+      <div>MongoDB</div>
+      <div>PHP</div>
+      <div>Java</div>
+      <div>SQL</div>
+      <div>AWS</div>
+      <div>Docker</div>
     </div>
-
-    <div class="project">
-      <h3>Portfolio Manager</h3>
-      <p>A web-based tool to track, categorize, and present projects with visual summaries and detailed descriptions.</p>
-      <a href="https://deepsinghrathi.github.io/portfolio-manager" target="_blank">View Project Page</a>
-    </div>
-
-    <!-- Add more projects as needed -->
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:deepsinghrathi@corapana.com">deepsinghrathi@corapana.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/deepsinghrathi" target="_blank">linkedin.com/in/deepsinghrathi</a></p>
+  <!-- Projects -->
+  <section class="section projects">
+    <h2>Highlighted Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Gaming Platform</h3>
+        <p>Managed 23K+ daily users with scalable backend handling 2K+ live per minute.</p>
+      </div>
+      <div class="card">
+        <h3>Food Delivery System</h3>
+        <p>End-to-end solution for restaurants, customers & agents with automation.</p>
+      </div>
+      <div class="card">
+        <h3>E-Learning App</h3>
+        <p>Flutter + Firebase course delivery app with analytics for 2K+ students.</p>
+      </div>
+      <div class="card">
+        <h3>Hotel Booking Web App</h3>
+        <p>React + Node.js app with filters, secure booking & dashboards.</p>
+      </div>
+    </div>
   </section>
 
+  <!-- Experience -->
+  <section class="section experience">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>Senior Full Stack Developer – Meentosys Pvt. Ltd.</h3>
+      <p><em>2020 – Present | Delhi</em></p>
+      <ul>
+        <li>Led 60+ successful product deployments in e-commerce, education, logistics.</li>
+        <li>Reduced delivery time by 25% via CI/CD & API optimization.</li>
+        <li>Migrated legacy apps to React + Node.js (30% faster performance).</li>
+      </ul>
+    </div>
+    <div class="exp-card">
+      <h3>Freelance Full Stack Developer</h3>
+      <p><em>2017 – 2019</em></p>
+      <ul>
+        <li>Delivered 10+ solutions independently (e-commerce & services).</li>
+        <li>Built APIs with secure authentication, real-time backends.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact">
+    <h2>Let’s Connect</h2>
+    <p>Open for freelance, collaborations, and full-time opportunities.</p>
+    <a href="mailto:Deeprathi1717@gmail.com" class="btn">Contact Me</a>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Deep Singh Rathi</p>
+    <p>© <span id="year"></span> Deep Singh Rathi | Full Stack Developer</p>
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
