@@ -130,3 +130,15 @@ footer {
   color: #444;
   font-size: 0.9rem;
 }
+
+.section.about ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 10px;
+}
+
+.section.about li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
