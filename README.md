@@ -41,8 +41,8 @@ Each project has:
 Want to connect or collaborate?
 
 - 📧 Email: `your-email@example.com`
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/deepsinghrathi)
-- 🌐 Website: [https://deep191717.github.io](https://deepsinghrathi.github.io)
+- 💼 LinkedIn: [linkedin.com/in/deepsinghrathi](https://linkedin.com/in/deepsinghrathi)
+- 🌐 Website: [https://deepsinghrathi.github.io](https://deepsinghrathi.github.io)
 
 ---
 
